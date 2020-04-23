@@ -22,4 +22,15 @@
   font-size: 22px;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.footer {
+  width: 1000px;
+  padding: 40px 0;
+  background: grey;
+  margin: 0 auto;
+}
+
+.footer p {
+  text-align: center;
+}
 /*# sourceMappingURL=style.css.map */

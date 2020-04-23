@@ -1,9 +1,11 @@
 @import './variables';
+@import './mixin';
 
 .header {
     background: $bgColor;
     width: 1000px;
-    margin: 20px auto;
+    // margin: 20px auto;
+    @include layoutMargin(20px, auto);
 
     h1 {
         color: $txtColor;

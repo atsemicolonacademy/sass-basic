@@ -1,0 +1,12 @@
+@import './mixin';
+
+.footer {
+    width: 1000px;
+    padding: 40px 0;
+    background: grey;
+    @include layoutMargin(0, auto);
+
+    p {
+        text-align: center;
+    }
+}
