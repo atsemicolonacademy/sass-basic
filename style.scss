@@ -1,2 +1,13 @@
 @import './header';
 @import './footer';
+@import './mixin';
+
+.slider {
+    width: 1000px;
+    @include layoutMargin(20px, auto);
+}
+
+.welcome {
+    @extend .footer;
+    background: wheat;
+}
