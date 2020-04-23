@@ -1,0 +1,28 @@
+$bgColor: #162680;
+$txtColor: #1faf3e;
+$headingFontSize: 22px;
+
+.header {
+    background: $bgColor;
+    width: 1000px;
+    margin: 20px auto;
+
+    h1 {
+        color: $txtColor;
+        font-size: $headingFontSize;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    button {
+        width: 80px;
+        height: 20px;
+        border: 0;
+        margin: 20px;
+    }
+
+    h2 {
+        color: $txtColor;
+        font-size: $headingFontSize;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+}

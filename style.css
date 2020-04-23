@@ -1,0 +1,25 @@
+.header {
+  background: #162680;
+  width: 1000px;
+  margin: 20px auto;
+}
+
+.header h1 {
+  color: #1faf3e;
+  font-size: 22px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.header button {
+  width: 80px;
+  height: 20px;
+  border: 0;
+  margin: 20px;
+}
+
+.header h2 {
+  color: #1faf3e;
+  font-size: 22px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/*# sourceMappingURL=style.css.map */
